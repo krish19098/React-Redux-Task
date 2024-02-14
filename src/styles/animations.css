@@ -1,0 +1,30 @@
+/* src/styles/animations.css */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* src/styles/styles.css */
+
+/* Background */
+body {
+  background-color: #f0f0f0; /* Set your desired background color */
+}
+
+/* Animation */
+.fadeIn {
+  animation: fadeInAnimation 1s ease-in-out; /* Apply fadeInAnimation to elements with class fadeIn */
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
